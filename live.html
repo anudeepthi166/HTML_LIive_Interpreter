@@ -1,0 +1,30 @@
+<html>
+<head>
+<link rel="stylesheet" href="live.css">
+<title>Live HTML Interpreter</title>
+</head>
+<body>
+
+<div class="main">
+	<div class="nav">
+	<marquee>LIVE INTERPRETER</marquee>
+	</div>
+	<div class="mini">
+	
+		<div class="editor">
+			<div id="smallnav">Write Your Code Here</div>
+			<textarea type="code" name="editor" id="editorbox"  oninput="onCodeChange()"></textarea>
+	
+		</div>
+	
+		<div class="preview">
+			<div id="smallnav">Your Code Output Preview</div>
+			<div id="output"></div>
+	
+		</div>
+	</div>
+</div>
+<script src="./live.js"></script>
+
+</body>
+</html>
